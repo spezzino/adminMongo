@@ -137,7 +137,7 @@ html, body {
     background-color: #f5f8fa;
 }
 
-.new_json, .edit_json { 
+.new_json, .edit_json {
     position: relative;
     height: 350px;
     width: 100%;
@@ -381,8 +381,8 @@ h4{
     z-index: 9999;
     padding-top: 10px;
     height: 50px;
-    bottom: 0px; 
-    width: 100%; 
+    bottom: 0px;
+    width: 100%;
     text-align: center;
     font-size: 22px;
     color: white;
@@ -413,17 +413,17 @@ h4{
     }
 
     .navTitle.navTitleDark a {
-        font-size: 18px; 
+        font-size: 18px;
     }
 
     .navTitle a{
-        font-size: 18px; 
+        font-size: 18px;
     }
 
     .recordCount{
         text-align: center;
         padding-top: 10px;
-        padding-bottom: 10px; 
+        padding-bottom: 10px;
     }
 
     .navbar-default .navbar-toggle .icon-bar {
@@ -448,46 +448,46 @@ h4{
     .navbar-default .navbar-nav>li>a{
         font-size: 12px;
     }
-    
+
     #main {
         left: 0;
     }
-    
+
     #sidebar .visible-xs{
        display:inline !important;
     }
-    
+
     .row-offcanvas {
         position: relative;
         -webkit-transition: all 0.4s ease-in-out;
         -moz-transition: all 0.4s ease-in-out;
         transition: all 0.4s ease-in-out;
     }
-    
+
     .row-offcanvas-left.active {
        left: 250px;
     }
-    
+
     .row-offcanvas-left.active .sidebar-offcanvas {
        left: -250px;
        position: absolute;
        top: 0;
        width: 250px;
     }
-} 
- 
+}
+
 @media screen and (min-width: 1200px) {
     .navTitle a{
-        font-size: 18px; 
+        font-size: 18px;
     }
 }
 
 @media screen and (min-width: 1400px) {
     .navTitle a{
-        font-size: 22px; 
+        font-size: 22px;
     }
 }
- 
+
 @media screen and (min-width: 768px) {
     .row-offcanvas {
         position: relative;
@@ -501,8 +501,16 @@ h4{
         top: 0;
         text-align: center;
     }
-  
+
     #main {
         left: 0;
     }
+}
+
+.jsonbox {
+  margin-bottom: 10px;
+}
+
+.paddingbottom {
+  padding-bottom: 20px;
 }
